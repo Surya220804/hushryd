@@ -1,0 +1,303 @@
+
+
+.rides-section {
+  padding: 30px 0;
+  background: #f7fbff;
+}
+
+.post-btn{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.post-plusbtn{
+  font-size: 3rem;
+}
+
+.my-rides-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.my-rides-title h1 {
+  font-size: 2.8rem;
+  color: var(--color-primary-black);
+  margin-bottom: 1rem;
+}
+.my-rides-title p{
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+.summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 2rem;
+}
+
+.summary-card {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #e9edf5;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.bg-orange{
+  background-color:#FFF7ED;
+  padding: 1rem;
+}
+.bg-gray{
+  background-color:#F1F5F9;
+  padding: 1rem;
+}
+.summary-card p{
+    color: var(--color-gray);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.summary-card h2{
+    color: var(--color-primary-black);
+    font-size: 2.4rem;
+    font-weight: 600;
+}
+
+.tabs-container {
+  display: flex;
+  gap: 3rem;
+  margin: 2rem 0;
+  font-weight: 600;
+  font-size: 1.4rem;
+  border-bottom: 1px solid var(--color-gray);
+}
+
+.tab {
+  cursor: pointer;
+  font-weight: 500;
+  padding: 1rem;
+  color: var(--color-gray);
+}
+
+.tab.active {
+  border-bottom: 2px solid var(--color-orange);
+  color:var(--color-orange);
+}
+
+.ride-card {
+  background: var(--color-white);
+  display: flex;
+  border-radius: 14px;
+  border: 1px solid #e6edf4;
+}
+
+.ride-date {
+  border-right: 1px solid #eaeaea;
+  padding: 3rem;
+  text-align: center;
+  margin-right: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color:#F8FAFC;
+}
+
+.ride-date .month {
+  font-size: 14px;
+  color: var(--color-gray);
+  font-weight: 600;
+}
+.ride-date .day {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--color-primary-black);
+}
+
+.label {
+  font-size: 14px;
+  color:var(--color-gray-border);
+}
+.ride-content{
+    width: 100%;
+}
+.ride-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.status-btn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.status-badge {
+  padding: 0.6rem 1.5rem;
+  border-radius: 20px;
+  border: none;
+  margin: 1.5rem 0;
+  font-size: 14px;
+}
+.code-id{
+  color: var(--color-gray-border);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.status-green{
+  background: #dff6dd;
+  color: #2a7b2f;
+}
+.route-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.route .time-entry {
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.orange { background: #ff6a00; }
+.yellow { background: #ffb300; }
+.gray{background-color: #6b7280;}
+
+.time {
+  font-weight: 600;
+  color: var(--color-gray);
+  font-size: 1.3rem;
+}
+
+.city {
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 0 2rem;
+}
+
+.place {
+  font-size: 1.3rem;
+  color: var(--color-gray-border);
+  text-align: center;
+  padding: 0 2rem;
+
+}
+
+.price-box {
+    display: flex;
+    gap: 2rem;
+}
+.divider{
+    width: 1px;
+    height: 40px;
+    background-color:var(--color-primary-black);
+}
+.label-small {
+  font-size: 1.2rem;
+  color:var(--color-gray);
+  margin-bottom: 0.4rem;
+}
+.price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--color-primary-black);
+}
+
+.availability {
+  font-size: 18px;
+  font-weight: 600;
+}
+.available-gray{
+    color: var(--color-gray);
+    font-size: 1.3rem;
+}
+
+.ride-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e9ecef;
+  padding-top: 15px;
+  margin-top: 20px;
+}
+
+.passenger-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.passenger-info span{
+    color: var(--color-gray);
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.avatar {
+  height: 36px;
+  width: 36px;
+  background: #cbe3ff;
+  border-radius: 50%;
+}
+.avatar img{
+  border-radius: 50%;
+
+}
+.ride-footer{
+    padding: 2rem;
+}
+.actions{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.actions-btn{
+    border: 1px solid #e9edf5;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #475569;
+    font-size: 1.3rem;
+}
+@media (max-width:800px){
+    .summary-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .divider{
+        height:2px;
+        width: 50px;
+    }
+    .price-box{
+        flex-direction: column;
+    }
+    .ride-footer{
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+}
+@media (max-width:500px){
+    .summary-grid{
+        grid-template-columns: 1fr;
+    }
+    .actions{
+        flex-direction: column;
+    }
+    .ride-card{
+  flex-direction: column;
+    }
+    .ride-date{
+        margin-top: 1rem;
+        margin-right: 0;
+    }
+    .tabs-container{
+        gap: 1rem;
+    }
+}
