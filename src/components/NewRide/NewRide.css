@@ -118,6 +118,7 @@
     font-size: 1.6rem;
     font-weight: 400;
     padding: 0rem 2rem;
+    text-align: start;
 }
 
 .input, .textarea {
@@ -127,6 +128,8 @@
     border-radius: 8px;
     outline: none;
     z-index: 1;
+    padding: 1rem 4rem;
+    font-size: 1.6rem;
 }
 
 .new-stop {
